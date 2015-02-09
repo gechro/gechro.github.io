@@ -4,10 +4,10 @@ body {
       background-size: cover;
       background-position: center;
       color: white;
-      font-family: Didot;
+      font-family: Georgia;
     }
 p {
-  font-family: Didot;
+  font-family: Georgia;
   color: #33ccff;
   text-align: left;
   max-width: 500px;
@@ -27,14 +27,14 @@ p {
       color: #33ccff
     }
   h1 {
-    font-family: Didot;
+    font-family: Georgia;
     color: purple;
   }
   h2 {
-    font-family: Didot;
+    font-family: Georgia;
     color: light blue;
   }
   h4 {
-    font-family: Didot;
+    font-family: Georgia;
     color: magenta;
   }
