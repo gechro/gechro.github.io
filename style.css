@@ -1,0 +1,40 @@
+body {
+      text-align: center;
+      background: url("http://i.imgur.com/RIquUvj.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: Monaco;
+    }
+p {
+  font-family: Monaco;
+  color: #33ccff;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+    img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 12px double;
+    border-radius: 20px;
+    border-color: purple;
+
+    li {
+      display: inline;
+      padding: 10px 10px 10px 10px;
+      color: #33ccff
+    }
+  h1 {
+    font-family: Monaco;
+    color: purple;
+  }
+  h2 {
+    font-family: Monaco;
+    color: light blue;
+  }
+  h4 {
+    font-family: Monaco;
+    color: magenta;
+  }
