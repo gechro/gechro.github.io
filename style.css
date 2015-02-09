@@ -4,11 +4,12 @@ body {
       background-size: cover;
       background-position: center;
       color: white;
-      font-family: Monaco;
+      font-family: Didot;
     }
 p {
-  font-family: Monaco;
+  font-family: Didot;
   color: #33ccff;
+  text-align: left;
   max-width: 500px;
   margin: 0 auto;
   font-size: 14px;
@@ -26,14 +27,14 @@ p {
       color: #33ccff
     }
   h1 {
-    font-family: Monaco;
+    font-family: Didot;
     color: purple;
   }
   h2 {
-    font-family: Monaco;
+    font-family: Didot;
     color: light blue;
   }
   h4 {
-    font-family: Monaco;
+    font-family: Didot;
     color: magenta;
   }
