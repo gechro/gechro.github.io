@@ -10,7 +10,7 @@ body {
   text-align: center;
   padding: 75px;
   color: white;
-  font-family: 'Dancing Script', cursive;
+  font-family: cursive;
   font-size: 3em;
 }
 
@@ -29,7 +29,7 @@ body {
 
 #page {
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: cursive;
   font-size: 1.5em;
   margin-top: .5%;
 }
@@ -40,7 +40,7 @@ main {
 }
 
 main h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: cursive;
   text-decoration: underline;
 }
 #technical {
@@ -98,9 +98,10 @@ footer {
   text-align: center;
   padding: 20px;
   color: white;
-  font-family: 'Dancing Script', cursive;
+  font-family: cursive;
   height: 100px;
   clear: both;
+
 }
 
 div {
@@ -109,7 +110,7 @@ div {
   display: inline-block;
   padding: 5px 30px;
   margin: auto;
-  font-family: 'Dancing Script', cursive;
+  font-family: cursive;
 }
 
 div:hover {
