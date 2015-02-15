@@ -1,54 +1,44 @@
-body {
-  padding: 0px;
-  margin: 0px;
-  background-image: url("../imgs/background1.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#page_name {
-  border-bottom: 1px solid gray;
-  color: white;
-  text-align: center;
-  padding: 50px;
-  font-size: 48px;
-  font-family: Garamond; serif;
-  font-weight: bold;
-}
 
 #blog {
   width: 70%;
   float: left;
-  padding: 10px;
-  color: white;
+  padding: 10px 10px 50px 10px;
+  color: black;
+  font-family: Garamond; serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin-top: -6%;
 }
 
 #about {
  float: right;
  width: 30%;
+ margin-top: 10%;
 }
 
+#about a {
+  color:black;
+}
 #about header {
   text-align: center;
   padding: 20px;
 }
 
-#about header img {
-  border-radius: 100%;
-  border: 3px solid white;
-  height: 250px;
-  width: 250px;
-  margin-top: 45%;
-  margin-bottom: 50px;
-}
 
 #about ul{
   width: 200px;
   margin: auto;
   padding: 20px;
+  text-align: center;
+  list-style-type: none;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+#about ul li {
+  font-family: Garamond; serif;
+  font-weight: lighter;
 }
 
 footer {
@@ -69,4 +59,8 @@ footer ul li {
 .special {
   font-weight: bold;
   font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
