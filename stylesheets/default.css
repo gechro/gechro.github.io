@@ -158,15 +158,15 @@ a:hover {
 }
 
 #social_media img {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
+  opacity: .5;
+  padding: 10px 15px;
 }
 
-#social_media hover {
-  opacity: .4;
+#social_media img:hover {
+  opacity: 1;
 }
 
-#github {
-  background-image:
-}
+
 /*Geovanna RC 02/2015*/
