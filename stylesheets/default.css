@@ -68,7 +68,6 @@ ul li {
 
 #main_text {
   text-align: center;;
-  border: 2px dashed gray;
   margin: auto auto 7% auto;
   width: 60%;
   padding: 2px;
@@ -76,6 +75,15 @@ ul li {
   -moz-box-sizing: border-box;
   box-sizing: border-box;s
   font-family: Garamond; serif;
+  font-size: 1.25em;
+}
+
+#main_text h2 {
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  margin-right: 60px;
+  text-decoration: none;
+  font-size: 2em;
 }
 
 #blog_desc {
