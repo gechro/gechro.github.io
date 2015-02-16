@@ -12,6 +12,14 @@
   margin-bottom: 2%;
 }
 
+#blog #sign {
+text-align: right;
+  font-family: 'Dancing Script', cursive;
+  margin-right: 15%;
+  text-decoration: none;
+  font-size: 2em;
+}
+
 #about {
  float: right;
  width: 30%;
