@@ -20,6 +20,13 @@ text-align: right;
   font-size: 2em;
 }
 
+#blog a {
+  color:violet;
+}
+
+#blog a:hover {
+  color: black;
+}
 #about {
  float: right;
  width: 30%;
