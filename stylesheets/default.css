@@ -47,12 +47,8 @@ main h3 {
   width: 32%;
   padding: 10px;
   display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  order: 1;
- border: 2px ridge violet;
- height: 300px;
+  border: 2px ridge violet;
+  height: 300px;
 }
 
 ul {
@@ -89,8 +85,6 @@ ul li {
 }
 
 #blog_desc {
-  order: 2;
-  flex: 1;
   display: inline-block;
   text-align: center;
   width: 36%;
@@ -113,12 +107,8 @@ ul li {
   width: 32%;
   padding: 10px;
   display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  order: 1;
- border: 2px ridge violet;
- height: 300px;
+  border: 2px ridge violet;
+  height: 300px;
 }
 
 #cultural a {
@@ -208,6 +198,5 @@ a:hover {
 #social_media img:hover {
   opacity: 1;
 }
-
 
 /*Geovanna RC 02/2015*/
