@@ -35,6 +35,13 @@ text-align: right;
 code {
   display: block;
   margin: auto;
+  font-family: Courier, serif;
+  background-color: black;
+  color: violet;
+  border-left: 2px solid violet;
+  border-right: 2px solid violet;
+  width: 50%;
+  padding: 5px;
 }
 
 #about {
@@ -82,4 +89,15 @@ code {
   font-weight: bold;
 }
 
+#leftpad {
+  padding-left: 30%;
+}
+
+#space14 {
+  padding-left: 14%;
+}
+
+#space11 {
+  padding-left: 11.5%;
+}
 /*Geovanna RC 02/2015*/

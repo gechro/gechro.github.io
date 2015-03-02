@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Get It Together | OOPs! My Journey</title>
+  <title>The Index is Key | OOPs! My Journey</title>
   <meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
@@ -17,14 +17,102 @@
 
   <main>
     <section id="blog">
-      <h1>Get It Together!</h1>
-      <h2>Organizing Data in Ruby </h2>
+      <h1>The Index is Key</h1>
+      <h2>Storing and Organizing Data in Ruby </h2>
       <h4>February 22, 2015</h4>
 
       <p>
-      <span class="special">Content currently being edited! Check again soon!</spas>
+       This week was pretty exciting for me. We got an intro to Ruby. I learned that basically everything is an object…. And in order for these objects to function, we need to call methods on them. Because Ruby can hold so much data, in variables, classes, methods, etc, it is important to keep the data in some sort of order. This is where arrays and hashes come in.
       </p>
-      <p>Thank you for your patience!</p>
+
+      <p>
+      Arrays and hashes are both classes (a larger type of object in ruby), which store other objects (strings, numbers, variables, other arrays and hashes, you name it, arrays and hashes can store them).  While arrays and hashes are very similar, they have some key differences. So how do we know when to use which?
+      </p>
+
+      <p>
+      First let’s talk about arrays. An array is an ordered list that stores objects. The easiest way to identify (and actually create an array), is by using square brackets “[ ]”. Let’s say we want to teach someone the proper symbols to use for math methods. We can create an array to store these symbol. We can name our array ‘math array’ and then set it equal to empty square brackets:
+      </p>
+
+      <code>math array = [] </code>
+
+      <p>That’s it. That’s an array. It’s that simple. Obviously this array is empty, but we can go ahead and fill it whenever we’d like. We would call the math array, and set it equal to the square brackets, filled with the objects we choose. For our math array, we’ll fill it with math operators:</p>
+
+      <code>math_array = [‘+’, ‘-’, ‘*’, ‘/’, ‘%’, ‘**’]</code>
+
+      <p>
+       So now that we have our array set, we can access all of those operators by calling math_array. When we call our array, it will just print out a list of those operators. But what if we don’t want the whole list? The objects in an array are integer-indexed, starting at 0. This means that in order to access the first value, we would use index 0, the second value would be index 1, third would be index 2, and so on. When you call the index on the array, it outputs the value in that position. Since our array only has six values, let’s go ahead and call them all. On the left you’ll see how to call the objects in the array using the index number, and on the right you will see the output, or value:
+      </p>
+
+      <code>
+        math_array[0] =>  +
+        <br>
+        math_array[1] =>  -
+        <br>
+        math_array[2] =>  *
+        <br>
+        math_array[3] =>  /
+        <br>
+        math_array[4] =>  %
+        <br>
+        math_array[5] => **
+      </code>
+
+      <p>
+      Pretty cool, right? We’ve received the operators as outputs. But what if we can’t remember what the operators, or symbols stand for?
+      </p>
+
+      <p>
+      That’s where a hash may be more appropriate. A hash is an ordered list that stores objects… But wait?! Isn’t that an array? Yes! A hash is a type of array (but let’s not get ahead of ourselves yet.) A hash is easily identified by curly brackets “{ }.” Like an array, a hash can be created by setting its name equal to empty curly brackets, like so:
+      </p>
+
+      <code>
+       math_hash = {} math_hash = {}
+      </code>
+
+      <p>
+      And like an array, that’s it. That’s a hash. So how do we add and access the actual information? Here lies the biggest difference between a hash and array. Hashes use key/value pairs. This means instead of using an index number, to call our objects, we will use a key. For the sake of this example, we will keep our values, the same as the values in the array above:
+      </p>
+
+      <code>
+        math_hash = { <br>
+                    <span id ="leftpad">“Add” => “+”,</span><br>
+                     <span id ="leftpad">“Subtract” => “-”,</span><br>
+                     <span id ="leftpad"> “Multiply” => “*”,</span><br>
+                     <span id ="leftpad"> “Divide” => “/”,</span><br>
+                      <span id ="leftpad">“Modulo” => “%”,</span><br>
+                      <span id ="leftpad">“Exponent” => “**”</span><br>
+                    <span id ="leftpad">}</span>
+      </code>
+
+      <p>
+        So there we have our math_hash. By calling the keys on math_hash, we’re asking for the value as our output. This is similar to calling the index number on our array. Check it out below:
+      </p>
+
+      <code>
+        math_hash["Add"]<span id ="space14">=></span>  +
+        <br>
+        math_hash["Subtract"] =>  -
+        <br>
+        math_hash["Multiply"] =>  *
+        <br>
+        math_hash[Divide]<span id ="space11">=></span>  /
+        <br>
+        math_hash[Modulo]<span id ="space11">=></span>  %
+        <br>
+        math_hash["Exponent"] => **
+      </code>
+
+      <p>
+        It’s a lot easier to understand when to use an array vs. when to use a hash, when you can actually visualize what they are. As you can see, a hash serves almost like a dictionary, or a key. And an array works as an index, kind of in reverse, you look up the index number, and it tells you what you would find there.
+      </p>
+
+      <p>
+        Next week we will be going over calling methods on our arrays and hashes. This will make up the bulk of some of our projects. Come back next week for more info on Ruby, and methods!
+      </p>
+
+      <p>
+        Thanks for stopping by!
+      </p>
       <h2 id="sign">- Geovanna</h2>
     </section>
 
@@ -34,7 +122,7 @@
       </header>
 
       <ul>
-        <a href="index.html">Click here</a> for more <a href="index.html">posts</a>, or select a title below:</a>
+        <a href="index.html">Click here for more posts or select a title below:</a>
         <li><a href="t1-git-blog.html"><li>Git It? Got It? Good?</li></a>
         <li><a href="c1-chefs-kitchen.html">What's Cooking at DBC?</a></li>
         <li><a href="t2-css-design.html">Are You In or Out?</a></li>
