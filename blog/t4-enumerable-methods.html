@@ -22,23 +22,78 @@
       <h4>March 1, 2015</h4>
 
       <p>
-        Coming Soon!
+      Hey, welcome back!
       </p>
 
       <p>
+        So last week we got an intro to Ruby and learned about arrays and hashes. This week I took a look at the Array and Hash classes, and became more familiar with some of the methods in those classes. While exploring Arrays and Hashes, I came across the Enumerable class.
       </p>
 
       <p>
+        Enumerable is a module in Ruby that contains a list of many more methods. These methods can be used by classes that hold their own #each method. The #each method should be able to pass each item in the collection, through a code block. Because the Array and Hash classes have their own each methods, we can use enumerable methods. One of the coolest enumerable methods I came across this past week was #map.
       </p>
 
       <p>
+        The Enumerable#map method returns a new array with the results of running block once for every element in enum (according to <a href=” http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-map”>Ruby-Doc</a>). What does this mean?  It means that map takes each object listed in an array or hash, or any other class that takes #map, and it applies the code block to each item. Let’s look at an example of calling map on an array:
+      </p>
+
+      <code>
+        group_4 = [“sherman”, “sid”, “tanya”, “will”,  “geovanna”]
+        <br>
+        <br>
+        new_array = group_4.map {|name| name.capitalize}
+      </code>
+
+      <p>
+        Looks like someone lazily added names to group_4, didn’t even bother to capitalize. So, the code above, will take the objects in our array, group_4, go through each one and and return a new array with the names capitalized. Check it out:
+      </p>
+
+      <code>
+        group_4 = [“sherman”, “sid”, “tanya”, “will”,  “geovanna”]
+        <br>
+        <br>
+        New_array = [“Sherman”, “Sid”, “Tanya”, “Will”, “Geovanna”]
+      </code>
+
+      <p>
+        So, we see that the original array remained the same. Our new array is what has changed.  #map works on hashes too. We just have to make sure we specify what we want to run the code on:
+      </p>
+
+      <code>
+        group_hash = {<br>
+        <span id ="leftpad">“person1”</span>=>“sherman”,<br>
+        <span id ="leftpad">“person2”</span>=>“sid”,<br>
+        <span id ="leftpad">“person3”</span>=>“tanya”,<br>
+        <span id ="leftpad">“person4”</span>=>“will”,<br>
+        <span id ="leftpad">“person5”</span>=>“geovanna”<br>
+        <span id ="leftpad">}</span><br>
+        <br>
+        group_array = group_hash.map {|role,name| [role.upcase, name.capitalize]}
+      </code>
+
+      <p>
+        So again, this code is calling for the names to be capitalized, but it wants the role to be all caps.  Because this is a hash, it should return a new array, with nested arrays consisting of the key/value pairs, with the code block applied. The original hash remains untouched:
+      </p>
+
+      <code>
+        group_hash = {<br>
+        <span id ="leftpad">“person1”</span>=>“sherman”,<br>
+        <span id ="leftpad">“person2”</span>=>“sid”,<br>
+        <span id ="leftpad">“person3”</span>=>“tanya”,<br>
+        <span id ="leftpad">“person4”</span>=>“will”,<br>
+        <span id ="leftpad">“person5”</span>=>“geovanna”<br>
+        <span id ="leftpad">}</span><br>
+        <br>
+        group_array= [[“PERSON1”,“Sherman”] [“PERSON2”,“Sid”],[“PERSON3”,“Tanya”], [“PERSON4”,“Will”],[“PERSON5”, “Geovanna”]]
+      </code>
+      <p>
+        And the Enumerable#map is that simple! The possibilities are endless with this one method. Imagine what you can do with all of the other methods out there! What do you think of the map method? Ready to try it out?
       </p>
 
       <p>
+        Thanks for reading! Don't forget to check back next week!
       </p>
 
-      <p>
-      </p>
       <h2 id="sign">- Geovanna</h2>
     </section>
 
@@ -53,7 +108,7 @@
         <li><a href="c1-chefs-kitchen.html">What's Cooking at DBC?</a></li>
         <li><a href="t2-css-design.html">Are You In or Out?</a></li>
         <li><a href="c3_thinking-style.html">Don't Mind Me!</a></li>
-        <li><a href="t3_arrays-hashes.html">The Index is Key</a></li>
+        <li><a href="t3-arrays-hashes.html">The Index is Key</a></li>
       </ul>
     </section>
 
