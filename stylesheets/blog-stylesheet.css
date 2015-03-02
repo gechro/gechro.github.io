@@ -44,6 +44,10 @@ code {
   padding: 5px;
 }
 
+video {
+  height: 20%;
+  width: 50%;
+}
 #about {
  float: right;
  width: 29%;
