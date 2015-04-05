@@ -1,0 +1,59 @@
+html, body {
+  box-sizing: border-box;
+  background-color: SteelBlue;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  padding: 10px;
+  text-align:center;
+  border: 1px solid navy;
+  border-radius: 5px;
+  margin: 0px 10px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: steelblue;
+
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: steelblue;
+  color: #FFF;
+}
+
+article {
+  background-color: white;
+  border: 1px solid navy;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+section {
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section:first-of-type {
+}
+
+section:last-of-type {
+
+}
+
+footer {
+  clear: left;
+  padding:10px;
+  text-align: center;
+  background-color: #fff;
+  color: steelblue;
+}
