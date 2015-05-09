@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="cheatsheet.css">
+    <title>Ruby/JS Iterator Cheatsheet</title>
+  </head>
+<body>
+    <header><h1>Ruby/JS Iterator Cheatsheet</h1></header>
+    <section>
+        <header>Ruby</header>
+        <article>
+            <h3>#each</h3>
+            <code>a = [0,1,2,3,4]<br/>
+                a.each do |number|<br/>
+                &nbsp;&nbsp;puts number<br/>
+                end<br/>
+                <br/>
+                =>0<br/>
+                =>1<br/>
+                =>2 <br/>
+                =>3 <br/>
+                =>4<br/>
+            </code>
+            <p>#each is an Enumerable method that can be used on arrays and hashes. In the example above, #each is being called on the array 'a'. The #each method goes through each element of the array, and runs the code that follows, for each element. Alternatively, each can be called with a code block, using curly brackets '{}', instead if do...end:</p>
+             <code>a = [0,1,2,3,4]<br/>
+                a.each {|number|&nbsp;&nbsp;puts number}<br/>
+                <br/>
+                =>0<br/>
+                =>1<br/>
+                =>2 <br/>
+                =>3 <br/>
+                =>4<br/>
+            </code>
+        </article>
+        <article>
+            <h3>while</h3>
+            <code>num = 0<br/>
+            while num < 10<br/>
+            &nbsp;&nbsp;puts num<br/>
+            &nbsp;&nbsp;num+=1<br/>
+            end<br/>
+            <br/>
+            =>0...9
+            </code>
+            <p>#while is a method that loops a block of code as long as the condition is true.</p>
+        </article>
+    </section>
+    <section>
+        <header>JS</header>
+        <article>
+            <h3>for ... in ...</h3>
+            <code>var a = [0,1,2,3,4]<br/>
+            for (number in a){<br/>
+                &nbsp;&nbsp;console.log(number);<br/>
+                };<br/>
+                <br/>
+                  =>0<br/>
+                =>1<br/>
+                =>2 <br/>
+                =>3 <br/>
+                =>4<br/>
+            </code>
+            <p id="for_info">for...in... iterates over the propertiess of an object, and runs the code in the block for each property. 'for' is followed by the variable/property 'in' the object that is being iterated over. You can use "for each x in y" to iterate over the values of "y".
+            </p>
+        </article>
+        <article>
+            <h3>while</h3>
+            <code>var num = 0<br/>
+                while (num < 10){<br/>
+                console.log(num);<br/>
+                n++;<br/>
+                };<br/>
+                <br/>
+                =>0..9
+            </code>
+            <p>while (condition) {code} will continually loop the code block as long as the condition is true.</p>
+        </article>
+    </section>
+    <footer><a href="#">Blog Home</a></footer>
+</body>
+</html>
