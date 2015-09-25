@@ -1,0 +1,72 @@
+#menuIcon {
+    background-color:white;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: violet;
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+#logo {
+    background-color:white;
+    border: 3px solid violet;
+    color: lightgray;
+    border-radius: 50%;
+    font-size: 2em;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: cursive;
+    display: inline-block;
+    padding: 2px;
+    margin: 5px;
+}
+
+#menu {
+    width: 140px;
+    height: 100%;
+    display: inline-block;
+}
+
+#nav {
+    border-right: 5px solid darkgray;
+    width: 120px;
+    color: violet;
+    font-size: 1.5em;
+    font-weight: lighter;
+    display: none;
+    list-style: none;
+    font-family: Helvetica;
+    padding: 6px;
+}
+
+#nav li {
+    padding: 2px;
+    margin: 15px auto;
+}
+header h1 {
+    color: gray;
+    display: inline-block;
+    font-family: Garamond;
+    position: fixed;
+}
+
+header h1 span {
+    color: violet;
+}
+
+#welcome {
+    font-family: Garamond;
+    display: none;
+    width: 50%;
+    font-size: 3.5em;
+    text-align: center;
+    color: gray;
+    margin: auto;
+}
