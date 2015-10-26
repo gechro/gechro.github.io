@@ -1,77 +1,94 @@
-#menuIcon {
-    background-color:white;
-    font-size: 2em;
-    font-family: sans-serif;
-    color: violet;
-    border: 3px solid gray;
-    border-radius: 10px;
-    text-align: center;
-    width:50px;
-    height: 50px;
-    line-height: 50px;
-    display: inline-block;
-}
+/*gechro.io*/
+body {
+    font-family: 'Work Sans', sans-serif;
 
-#logo {
-    background-color:white;
-    border: 3px solid violet;
-    color: lightgray;
-    border-radius: 50%;
-    font-size: 2em;
-    height:50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-family: cursive;
-    display: inline-block;
-    padding: 2px;
-    margin: 5px;
-}
-
-#menu {
-    width: 140px;
-    height: 100%;
-    display: inline-block;
-}
-
-#nav {
-    border-right: 5px solid darkgray;
-    width: 120px;
-    color: violet;
-    font-size: 1.5em;
-    font-weight: lighter;
-    display: none;
-    list-style: none;
-    font-family: Helvetica;
-    padding: 6px;
-}
-
-#nav li {
-    padding: 2px;
-    margin: 15px auto;
-}
-header h1 {
-    color: gray;
-    display: inline-block;
-    font-family: Garamond;
-    position: fixed;
-}
-
-header h1 span {
-    color: violet;
-}
-
-#welcome {
-    font-family: Garamond;
-    display: none;
-    width: 50%;
-    font-size: 3.5em;
-    text-align: center;
-    color: gray;
-    margin: auto;
 }
 
 a {
     text-decoration: none;
-    color: violet;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/************************
+    HEADER
+************************/
+#logo {
+    margin: 40px auto;
+    text-align: center;
+}
+
+#menu {
+    margin: 15px auto;
+    text-align: center;
+
+}
+#menu_list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: none;
+}
+
+
+/************************
+    SECTIONS
+************************/
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+section header {
+    background-color: gray;
+    margin: 0;
+    color: white;
+}
+
+section p {
+    padding: 5px;
+    margin: 0;
+}
+section div {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+
+/************************
+    FOOTER
+************************/
+footer {
+    height: 20px;
+    width: 100%;
+    border: 1px solid black;
+    bottom: 0;
+    position: absolute;
+}
+
+footer h5 {
+    float: left;
+    display: inline-block;
+    margin-top: 0;
+    }
+
+#theme {
+    display: inline-block;
+    float: right;
+}
+
+#theme li {
+    display: inline;
+
 }

@@ -1,11 +1,15 @@
 $(document).ready(function(){
-  $('#welcome').fadeIn(1600).fadeOut(2500);
 
-    $("#menuIcon").mouseenter(function(){
-        $("#menuIcon").hide();  $('#nav').fadeIn('slow').mouseleave(function(){
-        $("#nav").fadeOut("slow");
-        $("#menuIcon").show(300);
-            }); //end nav mouseLeave
-    }); //end icon mouseenter
-});//end ready
+  //Reveal menu nav
+  $("#menu div").on("click", function(){
+    $("#menu_list").slideToggle();
+  });//end menu reveal
 
+
+  //Expand each section to show descriptions
+  $("section header").on("click", function(){
+    var $sibs = $(this).siblings();
+    $sibs.slideToggle();
+  }); // end expand
+
+}); //end ready
