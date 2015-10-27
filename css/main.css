@@ -1,7 +1,6 @@
 /*gechro.io*/
 body {
-    font-family: 'Work Sans', sans-serif;
-
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -9,9 +8,9 @@ a {
 }
 
 img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    width: 90%;
+    max-height: 450px ;
+    max-width: 450px;
     display: block;
     margin: 20px auto;
 }
@@ -70,6 +69,7 @@ section div {
     FOOTER
 ************************/
 footer {
+    clear: both;
     height: 20px;
     width: 100%;
     border: 1px solid black;
