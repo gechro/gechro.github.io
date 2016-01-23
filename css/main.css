@@ -58,15 +58,7 @@ span {
     font-family: cursive;
 }
 
-.overlay {
-    margin: 1% auto;
-    bottom: 0;
-    text-align: center;
-    height: 98vh;
-    width: 98vw;
-    background-color: rgba(0,0,0,0.6);
-    padding-top: 30vh;
-}
+
 #social_media {
     margin: 0;
     padding: 0;
@@ -81,7 +73,28 @@ span {
 #social_media img:hover {
   opacity: 1;
 }
-
+#content {
+    padding-top: 10vh;
+}
  #content h3, #content h1{
     padding-bottom: .5vh;
+}
+
+#name {
+    border: 5px double white;
+    width: 30vw;
+    height: 7vh;
+    line-height: 7vh;
+    margin: 10vh auto;
+
+}
+
+.overlay {
+    margin: 1% auto;
+    bottom: 0;
+    text-align: center;
+    height: 98vh;
+    width: 98vw;
+    background-color: rgba(0,0,0,0.6);
+
 }
