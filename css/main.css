@@ -1,5 +1,10 @@
 /* gechro.io 11/15 re-design*/
 
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 html {
     background: url("../imgs/53.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -51,4 +56,32 @@ section {
 
 span {
     font-family: cursive;
+}
+
+.overlay {
+    margin: 1% auto;
+    bottom: 0;
+    text-align: center;
+    height: 98vh;
+    width: 98vw;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 30vh;
+}
+#social_media {
+    margin: 0;
+    padding: 0;
+}
+#social_media img {
+  height: 70px;
+  width: 70px;
+  opacity: .5;
+  padding: 2vh 1vw;
+}
+
+#social_media img:hover {
+  opacity: 1;
+}
+
+ #content h3, #content h1{
+    padding-bottom: .5vh;
 }
